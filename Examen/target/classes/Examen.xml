@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="ISO-8859-1"?>
+
+<!DOCTYPE biblioteca SYSTEM "Examen.dtd" >
+
+<biblioteca nombre="Tomás Carrasquilla" centro="poblado" foto="https://crearmiempresa.es/wp-content/uploads/2015/07/frases-de-steve-jobs.jpg">
+    <libro anyo="1994" codigo="ALE">
+        <titulo>TCP/IP Illustrated</titulo>
+        <autor cedula="100875">
+            <apellido>stevens</apellido>
+            <nombre>W.</nombre>
+            <ciudad>Medellin</ciudad>
+            <pais>Colombia</pais>
+            <telefono>32256456</telefono>
+            <correo>juan@elpoli.com</correo>
+        </autor>
+        <editorial>Addison-Wesley</editorial>
+        <precio>65.95</precio>
+    </libro>
+    <libro anyo="1992" codigo="ESP">
+        <titulo>Advanced Programming for Unix environment</titulo>
+        <autor cedula="1025452">
+            <apellido>stevens</apellido>
+            <nombre>W.</nombre>
+        </autor>
+        <editorial>Addison-Wesley</editorial>
+        <precio>65.95</precio>
+    </libro>
+    <libro anyo="2000" codigo="FRA">
+        <titulo>Data on the Web</titulo>
+        <autor cedula="120024">
+            <apellido>abiteboul</apellido>
+            <nombre>Serge</nombre>
+            <ciudad>Buenos Aires</ciudad>
+            <pais>Argentina</pais>
+        </autor>
+        <autor cedula="24552">
+            <apellido>buneman</apellido>
+            <nombre>Peter</nombre>
+            <ciudad>Buenos Aires</ciudad>
+            <pais>Argentina</pais>
+        </autor>
+        <autor cedula="2145">
+            <apellido>suciu</apellido>
+            <nombre>Dan</nombre>
+            <ciudad>Buenos Aires</ciudad>
+            <pais>Argentina</pais>
+        </autor>
+        <editorial>Morgan Kaufmann editorials</editorial>
+        <precio>39.95</precio>
+    </libro>
+    <libro anyo="1999" codigo="ITA">
+        <titulo>Economics of Technology for Digital TV</titulo>
+        <autor cedula="123554">
+            <apellido>gerbarg</apellido>
+            <nombre>Darcy</nombre>
+            <telefono>321156215</telefono>
+        </autor>
+        <editorial>Kluwer Academic editorials</editorial>
+        <precio>129.95</precio>
+    </libro>
+</biblioteca>

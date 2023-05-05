@@ -1,0 +1,19 @@
+<!ELEMENT biblioteca (libro)*>
+        <!ATTLIST biblioteca nombre CDATA #IMPLIED>
+        <!ATTLIST biblioteca centro CDATA #IMPLIED>
+        <!ATTLIST biblioteca foto CDATA #IMPLIED>
+        <!ELEMENT libro (titulo, autor+, editorial, precio)>
+        <!ATTLIST libro anyo CDATA #REQUIRED>
+        <!ENTITY % codigo_pais "(ESP|FRA|ITA|ALE)">
+        <!ATTLIST libro codigo %codigo_pais; "ESP">
+        <!ELEMENT titulo (#PCDATA)>
+        <!ELEMENT autor (apellido, nombre, ciudad?, pais?, telefono?, correo?)>
+        <!ATTLIST autor cedula CDATA #REQUIRED>
+        <!ELEMENT apellido (#PCDATA)>
+        <!ELEMENT nombre (#PCDATA)>
+        <!ELEMENT ciudad (#PCDATA)>
+        <!ELEMENT pais (#PCDATA)>
+        <!ELEMENT telefono (#PCDATA)>
+        <!ELEMENT correo (#PCDATA)>
+        <!ELEMENT editorial (#PCDATA)>
+        <!ELEMENT precio (#PCDATA)>
